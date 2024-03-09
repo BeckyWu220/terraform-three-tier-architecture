@@ -6,4 +6,5 @@ locals {
   }
   bastion_instance_name = "${var.bastion_instance_name}-${var.env}"
   private_instance_name = "${var.private_instance_name}-${var.env}"
+  alb_name = "${var.alb_name}-${var.env}"
 }

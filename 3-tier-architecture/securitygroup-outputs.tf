@@ -30,3 +30,8 @@ output "private_sg_name" {
   value       = module.private_sg.security_group_name
 }
 
+# Load Balancer Security Group
+output "lb_sg_id" {
+  description = "The ID of the security group"
+  value = module.lb_sg.security_group_id
+}
